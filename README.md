@@ -1,0 +1,1 @@
+Golang implementation of Status Dashbaord API, inspired by https://github.com/statusdashboard/statusdashboard
