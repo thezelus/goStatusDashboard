@@ -1,0 +1,29 @@
+{
+    "port": 4000,
+    "hostname": "127.0.0.1",
+    "services": [
+        {
+            "name": "couchdb",
+            "label": "Couchdb server @ local",
+            "check": "http",
+            "host": "127.0.0.1",
+            "port": 1234,
+            "path": "/"
+        }, {
+            "name": "Google",
+            "label": "Google",
+            "check": "https",
+            "host": "www.google.com",
+            "port": 443,
+            "path": "/"
+        }, {
+            "name": "Facebook",
+            "label": "Facebook",
+            "check": "https",
+            "host": "www.facebook.com",
+            "port": 443,
+            "path": "/"
+        }
+
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "port": 1008,
+    "hostname": "testhost",
+    "services": [
+        {
+            "name": "couchdb",
+            "label": "Couchdb",
+            "check": "http",
+            "host": "127.0.0.1",
+            "port": 5984,
+            "path": "/"
+        }, {
+            "name": "Google",
+            "label": "Google",
+            "check": "https",
+            "host": "www.google.com",
+            "port": 443,
+            "path": "/"
+        }
+    ]
+}
