@@ -49,7 +49,6 @@ func StatusMatrixGenerator(services []Service) []Status {
 			statusMatrix[i].Status = OK
 		}
 		defer resp.Body.Close()
-
 	}
 
 	return statusMatrix
